@@ -1,0 +1,160 @@
+/* Basic Body Styles*/
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 400px;
+}
+
+body {
+    background-color: #fff;
+}
+
+body, input, button {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #222;
+}
+
+/*Main Content Wrapper*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/*Navigation Bar*/
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    height: 60px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.basic-links:first-of-type {
+    margin-left: 15px;
+}
+
+.basic-links {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+    color: #222;
+    text-decoration: none;
+}
+
+#user-area {
+    display: inline-block;
+    flex-grow: 1;
+}
+
+#user-area-sub {
+    min-width: auto;
+    z-index: 986;
+    height: 48px;
+}
+
+#user-area-condensed {
+    padding: 0 4px;
+    padding-left: 0;
+    float: right;
+    box-sizing: border-box;
+    height: 48px;
+    line-height: normal;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#user-links {
+    line-height: normal;
+    white-space: nowrap;
+    padding-right: 15px;
+}
+
+#user-links a {
+    display: inline-block;
+    line-height: 24px;
+    outline: none;
+    vertical-align: middle;
+    color: #000;
+    text-decoration: none;
+    font-size: 13px;
+    padding-left: 15px;
+}
+
+#user-apps {
+    float: right;
+    position: relative;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+#level1 {
+    display: inline;
+    line-height: normal;
+}
+
+#level2 {
+    padding: 4px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#level3 {
+    position: relative;
+}
+
+#level3 a {
+    text-decoration: none;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    border-radius: 2px;
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px;
+    padding: 8px;
+}
+
+path {
+    color: #5f6368;
+    fill: currentColor;
+}
+
+#user-avatar {
+    flex: 0 1 auto;
+    padding: 4px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+#avatar-link {
+    padding: 4px;
+    flex: 0 1 auto;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 2px;
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px;
+}
+
+#avatar-img {
+    background-size: 32px 32px;
+    border: 0;
+    border-radius: 50%;
+    display: block;
+    margin: 0;
+    position: relative;
+    height: 32px;
+    width: 32px;
+    z-index: 0;
+}
