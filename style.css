@@ -190,3 +190,133 @@ path {
     width: auto;
     vertical-align: bottom;
 }
+
+/*Search*/
+
+#search-section {
+    padding: 20px;
+    max-height: 160px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+#search-container {
+    width: auto;
+    max-width: 584px;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 6px;
+}
+
+#search-bar-div {
+    width: auto;
+    max-width: 584px;
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+}
+
+#search-area {
+    display: flex;
+    flex: 1;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+}
+
+#search-logo {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+}
+
+#logo-positioner {
+    margin-top: 3px;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    line-height: 24px;
+    position: relative;
+}
+
+#search-logo svg {
+    display: block;
+    height: 100%;
+    width: 100%;
+    color: #9aa0a6;
+    fill: currentColor;
+    line-height: 24px;
+}
+
+#search-box {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+#search-box input {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: black;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    height: 34px;
+    font-size: 16px;
+}
+
+#search-microphone {
+    /* flex: 1 0 auto; */
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 4px 8px;
+    width: 24px;
+    line-height: 44px;
+}
+
+#search-microphone svg {
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+
+#search-button-container {
+    height: 70px;
+    padding-top: 18px;
+    top: 53px;
+    z-index: 0;
+}
+
+.submit-button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+}
+
+/*Whitespace*/
+
+#whitespace {
+    flex-grow: 1;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
